@@ -4,9 +4,9 @@ import { SearchBar } from "@/components/SearchBar";
 import { ResearchList } from "@/components/ResearchList";
 
 const researchPapers = [
-  "Mixed Method Research on Educational Technology Integration",
-  "Community Health Assessment Using Mixed Methods Approach",
-  "Social Media Impact: A Mixed Method Study",
+  { title: "Mixed Method Research on Educational Technology Integration" },
+  { title: "Community Health Assessment Using Mixed Methods Approach" },
+  { title: "Social Media Impact: A Mixed Method Study" },
 ];
 
 const MixedMethod = () => {

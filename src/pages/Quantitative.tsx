@@ -4,15 +4,15 @@ import { SearchBar } from "@/components/SearchBar";
 import { ResearchList } from "@/components/ResearchList";
 
 const researchPapers = [
-  "A Content Analysis Study on the Factors Affecting the Purchasing Behavior of the Millennial Consumers",
-  "An Assessment of the ICT Skills, Practices, Perceptions, and Barriers of ICT Use Among Secondary School Students",
-  "Assessing Flood Vulnerabilities in Barangay Riverside, Calinan Davao City",
-  "Assessing the Capacity of the New Carmen Sanitary Landfill to Hold the Solid Waste Generated Via-A-Via the Population Growth for the Next Five Years",
-  "Assessing the Level of Safety of Holy Cross College of Calinan, Inc.",
-  "ELEVATING SATISFACTION: Library System Impact on User Material Access and Satisfaction",
-  "Examining the Factors Affecting the Business Performance of Sole Proprietors in Calinan Poblacion",
-  "Factors Affecting the Financial Literacy of SME Employees",
-  "The Correlation Between Basic Mathematics Skills and Attitude",
+  { title: "A Content Analysis Study on the Factors Affecting the Purchasing Behavior of the Millennial Consumers" },
+  { title: "An Assessment of the ICT Skills, Practices, Perceptions, and Barriers of ICT Use Among Secondary School Students" },
+  { title: "Assessing Flood Vulnerabilities in Barangay Riverside, Calinan Davao City" },
+  { title: "Assessing the Capacity of the New Carmen Sanitary Landfill to Hold the Solid Waste Generated Via-A-Via the Population Growth for the Next Five Years" },
+  { title: "Assessing the Level of Safety of Holy Cross College of Calinan, Inc." },
+  { title: "ELEVATING SATISFACTION: Library System Impact on User Material Access and Satisfaction" },
+  { title: "Examining the Factors Affecting the Business Performance of Sole Proprietors in Calinan Poblacion" },
+  { title: "Factors Affecting the Financial Literacy of SME Employees" },
+  { title: "The Correlation Between Basic Mathematics Skills and Attitude" },
 ];
 
 const Quantitative = () => {

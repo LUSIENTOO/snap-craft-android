@@ -4,9 +4,9 @@ import { SearchBar } from "@/components/SearchBar";
 import { ResearchList } from "@/components/ResearchList";
 
 const researchPapers = [
-  "Harnessing Plant-Based Electrolytes: The Electrochemical Potential of Garlic (Allium sativum and Onion (Allium cepa)",
-  "Integrating Short Message Service and Internet of Things",
-  "Sensor for Advanced Soil Moisture and Temperature Monitoring System in Agriculture",
+  { title: "Harnessing Plant-Based Electrolytes: The Electrochemical Potential of Garlic (Allium sativum and Onion (Allium cepa)" },
+  { title: "Integrating Short Message Service and Internet of Things" },
+  { title: "Sensor for Advanced Soil Moisture and Temperature Monitoring System in Agriculture" },
 ];
 
 const TechnologicalSIPs = () => {

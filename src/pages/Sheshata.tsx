@@ -4,15 +4,15 @@ import { SearchBar } from "@/components/SearchBar";
 import { ResearchList } from "@/components/ResearchList";
 
 const researchPapers = [
-  "SHESHATA Research Compendium 2015",
-  "SHESHATA Research Compendium 2016",
-  "SHESHATA Research Compendium 2017",
-  "SHESHATA Research Compendium 2018",
-  "SHESHATA Research Compendium 2019",
-  "SHESHATA Research Compendium 2020",
-  "SHESHATA Research Compendium 2021",
-  "SHESHATA Research Compendium 2022",
-  "SHESHATA Research Compendium 2023",
+  { title: "SHESHATA Research Compendium 2015" },
+  { title: "SHESHATA Research Compendium 2016" },
+  { title: "SHESHATA Research Compendium 2017" },
+  { title: "SHESHATA Research Compendium 2018" },
+  { title: "SHESHATA Research Compendium 2019" },
+  { title: "SHESHATA Research Compendium 2020" },
+  { title: "SHESHATA Research Compendium 2021" },
+  { title: "SHESHATA Research Compendium 2022" },
+  { title: "SHESHATA Research Compendium 2023" },
 ];
 
 const Sheshata = () => {

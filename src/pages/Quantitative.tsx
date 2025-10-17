@@ -17,6 +17,10 @@ const researchPapers = [
     pdfUrl: "/pdfs/The_Relationship_Between_the_Level_of_Participation_in_Different_Mitigation_Programs_and_Level_of_Preparedness_of_the_Barangay_Functionaries_in_Barangay_Wangan_A_Correlational_Study.pdf"
   },
   { 
+    title: "The Relationship Between Entrance Examination Scores and the Academic Performance of Junior High School Students",
+    pdfUrl: "/pdfs/The_Relationship_Between_Entrance_Examination_Scores_and_the_Academic_Performance_of_the_Junior_High_School_Students.pdf"
+  },
+  { 
     title: "The Relationship Between Student's Comprehension and Math Problem-Solving Skills",
     pdfUrl: "/pdfs/The Relationship Between Student's Comprehension and Math Problem-Solving Skills.pdf"
   },

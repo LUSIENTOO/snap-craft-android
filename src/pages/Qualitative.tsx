@@ -4,12 +4,22 @@ import { SearchBar } from "@/components/SearchBar";
 import { ResearchList } from "@/components/ResearchList";
 
 const researchPapers = [
-  { title: "ALTER: Lived Experiences of People Who Choose to Undergo Cosmetic Surgery" },
-  { title: "NAVIGATING PARENTHOOD: Stories from Parents Raising Children with Special Needs" },
-  { title: "SOLITARY FATHERS: Parenting, Employment, and Mental Challenges" },
-  { title: "THE EMERGENCE OF FACEBOOK IN THE WORLD OF E-COMMERCE: Narratives of Online Sellers" },
-  { title: "The Untold Stories of Rice Farmers in Davao City" },
-  { title: "Unveiling the True Colors of Child Malnutrition" },
+  { 
+    title: "SOLITARY FATHERS: Parenting, Employment, and Mental Challenges",
+    pdfUrl: "/pdfs/SOLITARY_FATHERS_Parenting_Employment_and_Mental_Challenges.pdf"
+  },
+  { 
+    title: "THE EMERGENCE OF FACEBOOK IN THE WORLD OF E-COMMERCE: Narratives of Online Sellers",
+    pdfUrl: "/pdfs/THE_EMERGENCE_OF_FACEBOOK_IN_THE_WORLD_OF_E-_COMMERCE_Narratives_of_Online_Sellers.pdf"
+  },
+  { 
+    title: "The Untold Stories of Rice Farmers in Davao City",
+    pdfUrl: "/pdfs/The_Untold_Stories_of_Rice_Farmers_in_Davao_City.pdf"
+  },
+  { 
+    title: "Unveiling the True Colors of Child Malnutrition",
+    pdfUrl: "/pdfs/Unveiling_the_True_Colors_of_Child_Malnutrition.pdf"
+  },
 ];
 
 const Qualitative = () => {

@@ -15,6 +15,7 @@ import Sheshata from "./pages/Sheshata";
 import TechnologicalSIPs from "./pages/TechnologicalSIPs";
 import EnvironmentalSIPs from "./pages/EnvironmentalSIPs";
 import SIPCompendium from "./pages/SIPCompendium";
+import PDFViewer from "./pages/PDFViewer";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -38,6 +39,7 @@ const App = () => (
           <Route path="/technological-sips" element={<TechnologicalSIPs />} />
           <Route path="/environmental-sips" element={<EnvironmentalSIPs />} />
           <Route path="/sip-compendium" element={<SIPCompendium />} />
+          <Route path="/pdf-viewer" element={<PDFViewer />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 
 interface ResearchItem {
   title: string;
@@ -11,13 +12,15 @@ interface ResearchListProps {
 }
 
 export const ResearchList = ({ items, searchTerm }: ResearchListProps) => {
+  const navigate = useNavigate();
+  
   const filteredItems = items.filter(item =>
     item.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  const handleClick = (pdfUrl?: string) => {
-    if (pdfUrl) {
-      window.open(pdfUrl, '_blank');
+  const handleClick = (item: ResearchItem) => {
+    if (item.pdfUrl) {
+      navigate(`/pdf-viewer?url=${encodeURIComponent(item.pdfUrl)}&title=${encodeURIComponent(item.title)}`);
     }
   };
 
@@ -28,7 +31,7 @@ export const ResearchList = ({ items, searchTerm }: ResearchListProps) => {
           key={index}
           variant="menu"
           className="w-full text-sm h-auto py-4 whitespace-normal"
-          onClick={() => handleClick(item.pdfUrl)}
+          onClick={() => handleClick(item)}
         >
           {item.title}
         </Button>

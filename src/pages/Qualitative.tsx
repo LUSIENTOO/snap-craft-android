@@ -1,7 +1,7 @@
-import { useState } from "react";
 import { MobileLayout } from "@/components/MobileLayout";
-import { SearchBar } from "@/components/SearchBar";
 import { ResearchList } from "@/components/ResearchList";
+import { SearchBar } from "@/components/SearchBar";
+import { useState } from "react";
 
 const researchPapers = [
   { 
@@ -19,6 +19,14 @@ const researchPapers = [
   { 
     title: "Unveiling the True Colors of Child Malnutrition",
     pdfUrl: "/pdfs/Unveiling_the_True_Colors_of_Child_Malnutrition.pdf"
+  },
+  { 
+    title: "ALTER Lived Experiences of People Who Choose to Undergo Cosmetic Surgery",
+    pdfUrl: "/pdfs/ALTER Lived Experiences of People Who Choose to Undergo Cosmetic Surgery.pdf"
+  },
+  { 
+    title: "NAVIGATING PARENTHOOD Stories from Parents Raising Children with Special Needs",
+    pdfUrl: "/pdfs/NAVIGATING PARENTHOOD Stories from Parents Raising Children with Special Needs.pdf"
   },
 ];
 

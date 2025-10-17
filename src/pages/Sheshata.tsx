@@ -1,18 +1,13 @@
-import { useState } from "react";
 import { MobileLayout } from "@/components/MobileLayout";
-import { SearchBar } from "@/components/SearchBar";
 import { ResearchList } from "@/components/ResearchList";
+import { SearchBar } from "@/components/SearchBar";
+import { useState } from "react";
 
 const researchPapers = [
-  { title: "SHESHATA Research Compendium 2015" },
-  { title: "SHESHATA Research Compendium 2016" },
-  { title: "SHESHATA Research Compendium 2017" },
-  { title: "SHESHATA Research Compendium 2018" },
-  { title: "SHESHATA Research Compendium 2019" },
-  { title: "SHESHATA Research Compendium 2020" },
-  { title: "SHESHATA Research Compendium 2021" },
-  { title: "SHESHATA Research Compendium 2022" },
-  { title: "SHESHATA Research Compendium 2023" },
+  { 
+    title: "SHESHATA Research Compendium",
+  pdfUrl: "/pdfs/SHESHATA HCCC Research Compendium.pdf"
+  },
 ];
 
 const Sheshata = () => {

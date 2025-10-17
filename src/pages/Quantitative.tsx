@@ -1,7 +1,7 @@
-import { useState } from "react";
 import { MobileLayout } from "@/components/MobileLayout";
-import { SearchBar } from "@/components/SearchBar";
 import { ResearchList } from "@/components/ResearchList";
+import { SearchBar } from "@/components/SearchBar";
+import { useState } from "react";
 
 const researchPapers = [
   { 
@@ -43,6 +43,30 @@ const researchPapers = [
   { 
     title: "Examining the Factors Affecting the Business Performance of Sole Proprietors in Calinan Poblacion",
     pdfUrl: "/pdfs/Examining_the_Factors_Affecting_the_Business_Performance_of_Sole_Proprietors_in_Calinan_Poblacion.pdf"
+  },
+  { 
+    title: "A Content Analysis Study on the Factors Affecting the Purchasing Behavior of the Millennial Consumers",
+    pdfUrl: "/pdfs/A_Content_Analysis_Study_on_the_Factors_Affecting_the_Purchasing_Behavior_of_the_Millennial_Consumers.pdf"
+  },
+  { 
+    title: "An Assessment of the ICT Skills, Practices, Perceptions, and Barriers of ICT Use Among Secondary School Students",
+  pdfUrl: "/pdfs/An Assessment of the ICT Skills, Practices, Perceptions, and Barriers of ICT Use Among Secondary School Students.pdf"
+  },
+  { 
+    title: "Assessing Flood Vulnerabilities in Barangay Riverside, Calinan Davao City",
+  pdfUrl: "/pdfs/Assessing Flood Vulnerabilities in Barangay Riverside, Calinan Davao City.pdf"
+  },
+  { 
+    title: "Assessing the Capacity of the New Carmen Sanitary Landfill to Hold the Solid Waste Generated Vis-A-Vis the Population Growth for the Next Five Years",
+  pdfUrl: "/pdfs/Assessing the Capacity of the New Carmen Sanitary Landfill to Hold the Solid Waste Generated Vis-A-Vis the Population Growth for the Next Five Years.pdf"
+  },
+  { 
+    title: "Assessing the Level of Safety of Holy Cross College of Calinan, Inc.",
+  pdfUrl: "/pdfs/Assessing the Level of Safety of Holy Cross College of Calinan, Inc..pdf"
+  },
+  { 
+    title: "ELEVATING SATISFACTION Library System Impact on User Material Access and Satisfaction",
+  pdfUrl: "/pdfs/ELEVATING SATISFACTION_ Library System Impact on User Material Access and Satisfaction.pdf"
   },
 ];
 

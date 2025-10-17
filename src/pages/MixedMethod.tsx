@@ -1,12 +1,13 @@
-import { useState } from "react";
 import { MobileLayout } from "@/components/MobileLayout";
-import { SearchBar } from "@/components/SearchBar";
 import { ResearchList } from "@/components/ResearchList";
+import { SearchBar } from "@/components/SearchBar";
+import { useState } from "react";
 
 const researchPapers = [
-  { title: "Mixed Method Research on Educational Technology Integration" },
-  { title: "Community Health Assessment Using Mixed Methods Approach" },
-  { title: "Social Media Impact: A Mixed Method Study" },
+  { 
+    title: "Level of Perceived Skills and Employability Skills of the First Batch of Graduates of K-12 Basic Education Program ",
+    pdfUrl: "/pdfs/Level of Perceived Skills and Employability Skills of the First Batch of Graduates of K-12 Basic Education Program .pdf"
+  },
 ];
 
 const MixedMethod = () => {

@@ -1,18 +1,13 @@
-import { useState } from "react";
 import { MobileLayout } from "@/components/MobileLayout";
-import { SearchBar } from "@/components/SearchBar";
 import { ResearchList } from "@/components/ResearchList";
+import { SearchBar } from "@/components/SearchBar";
+import { useState } from "react";
 
 const researchPapers = [
-  { title: "SIP Compendium 2015 - Environmental Projects" },
-  { title: "SIP Compendium 2016 - Technological Innovations" },
-  { title: "SIP Compendium 2017 - Community Development" },
-  { title: "SIP Compendium 2018 - Health and Wellness" },
-  { title: "SIP Compendium 2019 - Sustainable Solutions" },
-  { title: "SIP Compendium 2020 - Digital Transformation" },
-  { title: "SIP Compendium 2021 - Climate Action" },
-  { title: "SIP Compendium 2022 - Education Technology" },
-  { title: "SIP Compendium 2023 - Innovation and Research" },
+  { 
+    title: "HCCC Research SIP Compendium",
+  pdfUrl: "/pdfs/HCCC Compendium of SIP.pdf"
+  },
 ];
 
 const SIPCompendium = () => {

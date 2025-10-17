@@ -1,6 +1,6 @@
+import owlMascot from "@/assets/owl-mascot.png";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
-import owlMascot from "@/assets/owl-mascot.png";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -31,7 +31,7 @@ const Home = () => {
               FINDR
             </h2>
             <p className="text-primary-foreground text-lg font-semibold">
-              YOUR RESEARCH PUPPY
+              YOUR RESEARCH BUDDY
             </p>
           </div>
 

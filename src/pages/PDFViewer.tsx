@@ -8,15 +8,19 @@ const PDFViewer = () => {
 
   return (
     <MobileLayout title={title} showBack={true} showMenu={false}>
-      <div className="w-full h-[calc(100vh-120px)]">
+      <div className="w-full -mx-6 -my-6 h-[calc(100vh-180px)]">
         {pdfUrl ? (
           <iframe
             src={pdfUrl}
             className="w-full h-full border-0"
             title={title}
+            style={{
+              overflow: 'auto',
+              WebkitOverflowScrolling: 'touch'
+            }}
           />
         ) : (
-          <div className="flex items-center justify-center h-full text-muted-foreground">
+          <div className="flex items-center justify-center h-full text-muted-foreground px-6 py-6">
             No PDF selected
           </div>
         )}

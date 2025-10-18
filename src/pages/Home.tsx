@@ -1,4 +1,3 @@
-import owlMascot from "@/assets/owl-mascot.png";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 
@@ -20,11 +19,9 @@ const Home = () => {
       {/* Content */}
       <main className="flex-1 bg-content flex flex-col items-center justify-center px-6">
         <div className="text-center space-y-8">
-          <img
-            src={owlMascot}
-            alt="FINDR Owl Mascot"
-            className="w-48 h-48 mx-auto mb-4"
-          />
+          <div className="w-48 h-48 mx-auto mb-4 flex items-center justify-center bg-primary/10 rounded-full">
+            <span className="text-8xl">🦉</span>
+          </div>
           
           <div>
             <h2 className="text-5xl font-bold text-primary-foreground mb-2 tracking-wider">
